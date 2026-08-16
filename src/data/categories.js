@@ -1,10 +1,10 @@
 export const CATEGORIES = [
-  { slug: "wide-leg", label: "Wide-Leg" },
-  { slug: "flared", label: "Flared" },
-  { slug: "embroidered", label: "Embroidered & Cutwork" },
-  { slug: "metallic-wash", label: "Metallic Wash" },
-  { slug: "skirts", label: "Denim Skirts" },
-  { slug: "avant-garde", label: "Avant-Garde" },
+  { slug: "jeans", label: "Jeans & Denim" },
+  { slug: "trousers", label: "Trousers & Pants" },
+  { slug: "skirts", label: "Skirts & Dresses" },
+  { slug: "tops", label: "Tops & Shirts" },
+  { slug: "jackets", label: "Jackets & Outerwear" },
+  { slug: "accessories", label: "Accessories" },
 ];
 
 export function categoryLabel(slug) {

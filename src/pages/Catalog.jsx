@@ -50,8 +50,8 @@ export default function Catalog() {
         </h1>
         <p className="mt-1 text-navy-500">
           {onlyHotDeals
-            ? "Limited-time offers across our denim collections."
-            : "Browse the complete Shakti Arts denim collection."}
+            ? "Limited-time offers across our collections."
+            : "Browse the complete Shakti Arts collection."}
         </p>
       </div>
 

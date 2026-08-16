@@ -11,7 +11,7 @@ export const SAMPLE_PRODUCTS = [
   {
     id: "sample-embroidered-wide-leg",
     name: "Mirror-Embroidered Wide-Leg Jeans",
-    category: "embroidered",
+    category: "jeans",
     price: 3499,
     discountPrice: 2799,
     isHotDeal: true,
@@ -24,7 +24,7 @@ export const SAMPLE_PRODUCTS = [
   {
     id: "sample-metallic-wash-wide-leg",
     name: "Metallic Foil Wide-Leg Jeans",
-    category: "metallic-wash",
+    category: "jeans",
     price: 3199,
     discountPrice: 2559,
     isHotDeal: true,
@@ -37,7 +37,7 @@ export const SAMPLE_PRODUCTS = [
   {
     id: "sample-classic-flared",
     name: "Heritage Flared Jeans",
-    category: "flared",
+    category: "jeans",
     price: 2699,
     isHotDeal: false,
     description:
@@ -61,7 +61,7 @@ export const SAMPLE_PRODUCTS = [
   {
     id: "sample-distressed-wide-leg",
     name: "Ombre Distressed Wide-Leg Jeans",
-    category: "avant-garde",
+    category: "jeans",
     price: 3899,
     discountPrice: 2999,
     isHotDeal: true,
@@ -74,7 +74,7 @@ export const SAMPLE_PRODUCTS = [
   {
     id: "sample-asymmetric-wrap-trouser",
     name: "Asymmetric Wrap-Waist Trousers",
-    category: "avant-garde",
+    category: "trousers",
     price: 4299,
     isHotDeal: false,
     description:

@@ -9,8 +9,8 @@ export default function Footer() {
           <div>
             <Logo className="[&_span:last-child]:text-white [&_span_span]:text-copper-300" />
             <p className="mt-4 text-sm leading-relaxed text-navy-200">
-              Premium denim manufacturing &amp; global fashion solutions.
-              Shaping the future of denim since 2005.
+              Premium apparel manufacturing &amp; global fashion solutions.
+              Shaping the future of fashion since 2005.
             </p>
           </div>
 

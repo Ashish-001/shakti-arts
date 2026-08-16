@@ -13,13 +13,14 @@ import ruffleHemSkirt from "../assets/products/ruffle-hem-skirt.jpg";
 import distressedWideLeg from "../assets/products/distressed-wide-leg.jpg";
 import asymmetricWrapTrouser from "../assets/products/asymmetric-wrap-trouser.jpg";
 
+// Placeholder collage images until real category photos are uploaded
 const CATEGORY_IMAGES = {
-  "wide-leg": distressedWideLeg,
-  flared: classicFlared,
-  embroidered: embroideredWideLeg,
-  "metallic-wash": metallicWashWideLeg,
+  jeans: embroideredWideLeg,
+  trousers: asymmetricWrapTrouser,
   skirts: ruffleHemSkirt,
-  "avant-garde": asymmetricWrapTrouser,
+  tops: metallicWashWideLeg,
+  jackets: distressedWideLeg,
+  accessories: classicFlared,
 };
 
 export default function Home() {
@@ -42,14 +43,14 @@ export default function Home() {
           <div className="max-w-xl py-24">
             <p className="eyebrow mb-5 !text-copper-300">Since 2005 · Noida, India</p>
             <h1 className="text-5xl font-semibold leading-[1.08] text-white sm:text-6xl lg:text-7xl">
-              Denim, Crafted
+              Fashion, Crafted
               <br />
               <em className="text-copper-300">to Perfection</em>
             </h1>
             <p className="mt-6 max-w-md text-base leading-relaxed text-navy-100/90">
-              Two decades of trend-forward denim — intricate embroidery,
-              metallic washes, and avant-garde silhouettes, engineered with
-              global craftsmanship.
+              Two decades of trend-forward fashion — from premium denim to
+              complete wardrobe essentials, engineered with global
+              craftsmanship.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
               <Link to="/catalog" className="btn btn-primary">
@@ -154,14 +155,15 @@ export default function Home() {
       <section className="mx-auto max-w-3xl px-4 py-24 text-center sm:px-6 lg:px-8">
         <p className="eyebrow mb-3">Our Story</p>
         <h2 className="text-3xl font-semibold leading-snug text-navy-900 sm:text-4xl">
-          Shaping the Future of Denim
+          Shaping the Future of Fashion
           <br />
           <em>Since 2005</em>
         </h2>
         <p className="mx-auto mt-6 max-w-xl leading-relaxed text-navy-500">
-          Backed by advanced infrastructure, skilled professionals, and SEDEX
+          From our roots in premium denim to a complete apparel range — backed
+          by advanced infrastructure, skilled professionals, and SEDEX
           4-Pillar ethical manufacturing practices, Shakti Arts delivers
-          precision, durability, comfort, and modern style — trusted by
+          precision, durability, comfort, and modern style, trusted by
           leading domestic and international fashion brands.
         </p>
         <div className="mt-9 flex justify-center gap-4">
